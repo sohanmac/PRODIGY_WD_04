@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Chat Bot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="login">
+  <div class="app-shell">
+    <aside class="hero-panel">
+      <h1>Welcome to Chat Bot</h1>
+      <p>Sign in to access the chat room, add contacts, and connect with people instantly.</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h2>Fast login</h2>
+          <p>Enter your credentials and get into the conversation immediately.</p>
+        </div>
+        <div class="feature-card">
+          <h2>Secure demo</h2>
+          <p>Your session is stored locally for a seamless experience.</p>
+        </div>
+        <div class="feature-card">
+          <h2>Live chat ready</h2>
+          <p>After login, you can start messaging contacts in Chat Bot.</p>
+        </div>
+      </div>
+    </aside>
+    <main class="auth-panel">
+      <div class="auth-card">
+        <h2>Login</h2>
+        <p>Use your email and password to sign in and continue to Chat Bot.</p>
+        <form id="loginForm" class="auth-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter your password" autocomplete="current-password" />
+          </div>
+          <p class="form-error" id="loginError"></p>
+          <button type="submit">Login</button>
+        </form>
+        <p class="auth-note">New to Chat Bot? <a href="register.html">Create an account</a></p>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

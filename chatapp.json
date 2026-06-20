@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sohan",
+      "email": "sohan1@gmail.com",
+      "password": "1234",
+      "created_at": "2026-06-20T15:39:15.459Z"
+    }
+  ],
+  "messages": []
+}
