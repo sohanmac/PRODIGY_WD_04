@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sohan",
+      "email": "sohan1@gmail.com",
+      "password": "1234",
+      "created_at": "2026-06-20T15:39:15.459Z"
+    },
+    {
+      "id": 2,
+      "name": "sohan",
+      "email": "sohan@gmail.com",
+      "phone": "123-456-7894",
+      "password": "1234",
+      "created_at": "2026-06-20T18:25:33.260Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "sender_id": 1,
+      "receiver_id": -1,
+      "content": "Hello Nova",
+      "created_at": "2026-06-20T18:24:30.379Z"
+    },
+    {
+      "id": 2,
+      "sender_id": -1,
+      "receiver_id": 1,
+      "content": "Hello! I am Nova, your chat assistant. How can I help you today?",
+      "created_at": "2026-06-20T18:24:30.382Z"
+    },
+    {
+      "id": 3,
+      "sender_id": 2,
+      "receiver_id": -1,
+      "content": "hello",
+      "created_at": "2026-06-20T18:25:40.834Z"
+    },
+    {
+      "id": 4,
+      "sender_id": -1,
+      "receiver_id": 2,
+      "content": "Hello! I am Nova, your chat assistant. How can I help you today?",
+      "created_at": "2026-06-20T18:25:40.837Z"
+    },
+    {
+      "id": 5,
+      "sender_id": 2,
+      "receiver_id": -1,
+      "content": "how are you",
+      "created_at": "2026-06-20T18:25:46.786Z"
+    },
+    {
+      "id": 6,
+      "sender_id": -1,
+      "receiver_id": 2,
+      "content": "I hear you. You said: \"how are you\" What would you like to do next?",
+      "created_at": "2026-06-20T18:25:46.790Z"
+    }
+  ]
+}
